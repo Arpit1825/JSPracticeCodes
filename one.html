@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+    <style>
+
+    </style>
+</head>
+
+<body id="hex" class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning on Chai aur Code</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fugit, veniam tenetur voluptatem hic ut?
+        </p>
+    </div>
+    <img src=url('https://n
+csmusic.s3.eu-west-1.amazonaws.com/tracks/000/002/003/32
+5x325/favela-1762477269-WMI803pkwV.png')></div>
+    <ul class="language">
+        <li>HTML</li>
+    </ul>
+</body>
+<script src="script.js"></script>
+<script>
+    function addlanguage(Langname) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(Langname))
+        document.querySelector('.language').appendChild(li)
+    } addlanguage('JavaScript')
+    addlanguage('React')
+</script>
+
+</html>

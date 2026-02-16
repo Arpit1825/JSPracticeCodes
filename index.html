@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manupulation</title>
+    <style>
+        body {
+            background-color: rgb(40, 38, 37);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* h3{
+            color:grey;
+            text-align: center;
+            font-weight:300;
+            font-size: 20rem;
+            user-select:none;
+        } */
+        /* .change{
+            background-color: aqua;
+            color:red;
+        } */
+        .card h5 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .card h3 {
+            margin-top: 5px;
+        }
+
+        input {
+            background-color: rgb(231, 230, 229);
+            display: flex;
+            width: auto;
+            height: 100%;
+            padding: 5px 22px;
+        }
+
+        .card {
+            max-width: 400px;
+            color: #f7f6f6;
+            margin-top: 40px;
+            border-radius: 10px;
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid rgb(173, 173, 182);
+        }
+
+        .profile img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+        .profile {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 1px solid rgb(173, 173, 182);
+            overflow: hidden;
+        }
+
+        /* #btn{
+            width:auto;
+            display: inline-block;
+            padding: 12px 25px;       
+            /* background-color: #e63946; /* Standard 'red' aankhon main chubhta hai, ye 'Modern Red' hai */
+        /* color: white;
+            font-weight: 600;         /* 400 bohot patla tha, 600 (Semi-Bold) perfect hai */
+        /* border-radius: 50px;      /* 5px se box lagta hai, 50px se Spotify jaisa 'Pill Shape' banega */
+        /* border: none; */
+        /* } */
+        /* #main #btn:hover{
+            color:black;
+            cursor:pointer;
+            background-color: aqua;
+        } */
+         #abss{
+            position: absolute;
+            transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+            background-color: red;
+           height:100px;
+            width:100px;
+
+         }
+         body{
+            position: relative;
+            overflow: hidden;
+         }
+    </style>
+</head>
+
+<body>
+    <h1 class="lnk1"><a href="https://arpit1825.github.io/Full-Stack-Journey/Portfolio/" target="_main">Here</a></h1>
+    <!-- <h3>1</h3> -->
+    <!-- <div id="main">
+        <input type="file" id="inp">
+         <div id="btn">Upload File</div>
+    </div> -->
+    <!-- <div id="main">
+        <form action="">
+            <input type="text" placeholder="profile pic">
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="occupation">
+            <input type="text" placeholder="info">
+            <input type="Submit">
+        </form>
+    </div> -->
+    <!-- <div class="card">
+        <div class="profile"><img
+                src="">
+        </div>
+        <h3>Arpit</h3>
+        <h5>Creative Designer</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam accusantium excepturi omnis beatae suscipit?
+            Vel minus sint ea. Veritatis ad neque nam at vitae doloribus eius accusamus officia sint eos.</p>
+    </div> -->
+    <!-- <h1 id="device">Choose Option</h1>
+    <select>
+        <option selected disabled> Choose your device</option>
+        <option value="Apple IPhone">Apple IPhone</option>
+        <option value="Samsung">
+            Samsung
+        </option>
+        <option value="Mi">Mi</option>
+    </select>
+    <input type="text" placeholder="name">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorum.</p>
+   <h1>hello Good</h1> -->
+    <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+     <div id="abss"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
