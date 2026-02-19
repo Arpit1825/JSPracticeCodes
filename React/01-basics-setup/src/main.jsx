@@ -3,8 +3,16 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+function MyApp(){
+  return(<div>
+    <h2>Custom React App<h2>
+  </div>
+
+
+
+reactElement.createRoot(document.getElementById('root')).render(
+  
+  <MyApp />
+  
 )
+}
