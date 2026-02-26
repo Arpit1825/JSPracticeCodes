@@ -1,1 +1,0 @@
-localStorage.setItem("fruits","Apple","age","18");
