@@ -1,3 +1,5 @@
+import React from 'react'
+import { Link } from "react-router-dom"
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
@@ -17,7 +19,7 @@ export default function Home() {
                                 fill="white"
                                 width="24"
                                 height="24"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="://www.w3.org/2000/svg"
                                 fillRule="evenodd"
                                 clipRule="evenodd"
                             >
@@ -29,12 +31,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-96" src="https://i.pinimg.com/originals/54/ac/7e/54ac7eca1982d50907b190e499bf4ec7.png" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                <img className="sm:w-96 w-48" src="https://i.pinimg.com/1200x/65/a1/0b/65a10b505e3001c955109b7f1906a314.jpg" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>

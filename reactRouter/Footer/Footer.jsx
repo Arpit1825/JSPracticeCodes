@@ -1,3 +1,5 @@
+import React from 'react'
+import {Link} from 'react-router-dom'
 export default function Footer() {
     return (
         <footer className="bg-white border-y">
@@ -33,7 +35,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/Arpit1825"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
@@ -68,9 +70,9 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
-                        © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                        © 2025
+                        <a href="" className="hover:underline">
+                            Arpit Verma
                         </a>
                         . All Rights Reserved.
                     </span>
@@ -83,11 +85,11 @@ export default function Footer() {
                                 fill="currentColor"
                                 viewBox="0 0 8 19"
                             >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                                    clip-rule="evenodd"
-                                />
+                               <path
+  fillRule="evenodd"
+  d="M6.135 3H8V0H6.135..."
+  clipRule="evenodd"
+/>
                             </svg>
                             <span className="sr-only">Facebook page</span>
                         </Link>

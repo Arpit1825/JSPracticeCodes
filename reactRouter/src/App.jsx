@@ -1,6 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route,Routes } from 'react-router-dom'
+import Home from '../Home/Home'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 import './App.css'
 
 function App() {
@@ -8,9 +10,13 @@ function App() {
 
   return (
     <>
-    <div className='min-h-screen  flex justify-center items-center bg-gray-800/90'>
-       <h1 className=' text-[25px] font-bold text-center text-blue-600'>React Router</h1>
-    </div>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+
+      <Footer />
     </>
   )
 }
