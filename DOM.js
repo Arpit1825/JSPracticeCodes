@@ -52,3 +52,4 @@ let p = document.querySelectorAll("p");
 p.forEach(function(element){
     element.style.fontSize="20px";
 });
+
