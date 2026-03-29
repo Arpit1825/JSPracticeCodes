@@ -41,7 +41,7 @@ JsUser.email="av6821246@chatgpt.com"
 Object.freeze(JsUser)//freezes the object which can't changes the values
 JsUser.email="av6821246@gpt.com"
 
-console.log(JsUser);
+// console.log(JsUser);
 
 //function creating performing 
 // JsUser.greeting=function(){
@@ -82,4 +82,53 @@ const obj=Object.assign(obj1,obj2)//obj-{ '1': 'a', '2': 'b', '4': 'a', '5': 'b'
 //  console.log(Object.entries(tinderUser));
 
 //  console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const coins=[{name:"BTC",price:60000},{name:"ETH",price:3000},{name:"BITCOIN",price:0.1},{name:"DOGE",price:100}];
+
+const coindetail=coins.filter((coins)=>coins.price>100);
+const updatedprice=coindetail.map((coin)=>coin.price*(1.1));
+console.log(coindetail);
+console.log(updatedprice);
+const Totalprice=updatedprice.reduce((acc,curr)=>acc+curr);
+console.log(Totalprice);
+
+// const nums=[1,2,3,6,8,9,5,10,11,12,4];
+// console.log(nums.filter((num)=>num%2==0).map((num)=>num/2));
+
+
+// Task 2
+
+const request={body:{username:"Arpit",age:19,location:{city:"kanpur",pin:208022},skills:["react","Node"]}}
+const {username,skills:[primarySkill],location:{city}}=request.body;
+console.log(username,primarySkill,city);
+
+function connectTodb(){
+    return new Promise((res,rej)=>{
+        setTimeout(()=>{
+            const status=true;
+            if(status){
+                res("Connected finally")
+            }else{
+                rej("Not connected");
+            }
+        },2000);
+    });
+};
+
+async function startServer(){
+    try{
+        const status=await connectTodb();
+        console.log(status);
+        
+    }catch(err){
+        console.log("Error occurred",err);
+        
+    }
+};
+
+startServer();
+
+
+
+
 
