@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body >
+    <!-- <input type="text" style="margin:5px">
+    <div class="buttons">
+    <button type="reset" class="reset" onclick="f1()">Button 1 </button> <!-- direct method =>  -->
+    <!-- <button type="submit" id="b1">Button 2</button> Listener Method  no mixing on javascript in html -->
+     <div id="dv">
+        <p id="pr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium consequuntur perferendis quas repudiandae laborum similique ipsam possimus nihil ratione tenetur eligendi doloremque atque nisi vel sunt neque, necessitatibus enim?
+        </p>
+     </div>
+</div>
+     <script>
+        const p=document.getElementById("pr");
+        const boy=document.body;
+        const dv=document.getElementById("dv");
+        p.addEventListener("click",function(){
+            alert("Para clicked")
+        },true);
+
+          boy.addEventListener("click",()=>{
+            alert("body clicked")
+        },true);
+
+          dv.addEventListener("click",function(){
+            alert("div clicked")
+        },true);
+    </script>
+</body>
+</html>
+
+
+<!-- Event bubbling  It firstly executing the p 
+ alert cause of the event bubbling  and s events from bottom to up -->
+
+ 

@@ -60,8 +60,11 @@ const another_arr=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
 const real_another_arr=another_arr.flat(Infinity)
 // console.log(real_another_arr)
 
-console.log(Array.isArray("Hitesh"));//False
-console.log(Array.isArray(["Hitesh"]));//True
-console.log(Array.from({name:"Hitesh"}));//interesting output-[]
+// console.log(Array.isArray("Hitesh"));//False
+// console.log(Array.isArray(["Hitesh"]));//True
+// console.log(Array.from({name:"Hitesh"}));//interesting output-[]
+
+console.log(typeof(null));
+
 
 

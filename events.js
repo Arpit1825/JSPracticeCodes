@@ -149,5 +149,19 @@
 
 // aur pahle phase 1 hoti hai
 
-let click=document.querySelector(".lnk1");
-console.log(click);
+// let click=document.querySelector(".lnk1");
+// console.log(click);
+
+
+
+//Asynchronous function 
+
+function add(a,b,cb){
+    let result=a+b;
+    cb(result);
+}
+
+add(2,4,function(val){
+    console.log(val);
+})
+
